@@ -31,7 +31,10 @@ const createStore = (key: string) => {
 
 Luego vamos a crear un store.
 
+```js
 const store = createStore("COUNT_ATOM");
+```
+
 Esto nos permite reutilizar las funciones getItem y setItem sin necesidad de introducir la llave.
 
 ## Jotai
